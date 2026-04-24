@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
-const API = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const API = import.meta.env.VITE_API_URL || "https://cipherweb-js.onrender.com";
 const algs = [
   "caesar",
   "affine",
